@@ -1,0 +1,77 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+	*, *::after, *::before {
+		box-sizing: inherit;
+	}
+
+body {
+	background-color: rgb(238,238,238);
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, serif;
+	font-weight: normal;
+	line-height: 1.2;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+p, section {
+	margin-bottom: 1em;
+}
+
+.card {
+	background-color: rgb(255,255,255);
+	border-color: rgb(200,200,200);
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	margin-left: 1em;
+	overflow: hidden;
+}
+
+@media (min-width: 667px) {
+	.card {
+		flex-basis: 40%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.card {
+		flex-basis: 30%;
+	}
+}
+
+.card img {
+	display: block;
+	width: 100%;
+}
+
+.card-body {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	padding: 1em;
+}
+
+.card-button {
+	align-self: flex-end;
+	background-color: rgb(0,153,0);
+	border-radius: 0.125em;
+	color: rgb(255,255,255);
+	padding: 0.5em 1em;
+	text-decoration: none;
+}

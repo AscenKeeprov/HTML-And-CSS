@@ -1,0 +1,130 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+
+blockquote {
+	font-family: Georgia, serif;
+	font-style: italic;
+}
+
+	blockquote > p:last-child {
+		text-align: right;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Merriweather, serif;
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.875em;
+}
+
+h3 {
+	font-size: 1.75em;
+}
+
+h4 {
+	font-size: 1.625em;
+}
+
+h5 {
+	font-size: 1.5em;
+}
+
+h6 {
+	font-size: 1.375em;
+}
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+input[name="sign-up-button"] {
+	font-size: 0.75em;
+	font-weight: bold;
+}
+
+
+@media (min-width: 500px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 600px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 800px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1300px) {
+	html {
+		font-size: 21px;
+	}
+}
+
+@media (min-width: 1800px) {
+	html {
+		font-size: 23px;
+	}
+}
+
+.card {
+	text-align: center;
+}
+
+.card-description {
+	font-style: italic;
+}
+
+.card-title > p:first-child {
+	font-weight: bold;
+}
+
+.icon::before {
+	font-family: 'Font Awesome 5 Free';
+	font-size: 0.9em;
+	font-weight: 900;
+}
+
+.nav-toggle-label {
+	font-weight: bold;
+	text-align: center;
+}
+
+.site-header > nav > ul > li > a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.site-title > a {
+	color: rgb(128,0,128);
+	font-family: Merriweather, serif;
+	font-size: 2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.site-title > span {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+}
+
+.text-center {
+	text-align: center;
+}

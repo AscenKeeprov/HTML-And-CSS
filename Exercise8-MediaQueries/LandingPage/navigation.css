@@ -1,0 +1,32 @@
+﻿.nav-toggle {
+	opacity: 0;
+	pointer-events: none;
+	position: absolute;
+}
+
+	.nav-toggle:checked + .site-header > nav > ul {
+		display: flex;
+	}
+
+	.nav-toggle:not(:checked) + .site-header > nav > ul {
+		display: none;
+	}
+
+.nav-toggle-label {
+	padding: 0.5em;
+	margin-left: auto;
+}
+
+	.nav-toggle-label::before {
+		content: "\f0c9";
+	}
+
+@media (min-width: 1440px) {
+	.nav-toggle, .nav-toggle-label {
+		display: none;
+	}
+
+		.nav-toggle:not(:checked) + .site-header > nav > ul {
+			display: flex;
+		}
+}

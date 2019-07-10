@@ -1,0 +1,262 @@
+﻿body {
+	background-color: rgb(250,250,250);
+	margin: 0 auto;
+}
+
+form {
+	align-items: baseline;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	padding: 0.5em;
+}
+
+	form input:not([type="submit"]) {
+		flex-basis: 70%;
+	}
+
+input {
+	border-color: rgb(51,51,51);
+	border-radius: 0.25em;
+	border-style: solid;
+	border-width: 0.125em;
+	padding: 0.25em;
+}
+
+section {
+	margin-bottom: 1em;
+	padding: 0 1em;
+}
+
+	section > h1,
+	section > h2,
+	section > h3,
+	section > h4,
+	section > h5,
+	section > h6 {
+		flex-basis: 100%;
+	}
+
+.address::before {
+	content: "\f59f";
+}
+
+.background-purple {
+	background-color: rgb(100,50,125);
+	color: rgb(255,255,255);
+}
+
+.card {
+	align-items: center;
+	display: flex;
+	flex-basis: 50%;
+	flex-direction: column;
+	margin-bottom: 0.25em;
+	padding: 0.25em;
+}
+
+.card-description {
+	padding: 1em;
+}
+
+.card-image {
+	border-radius: 50%;
+	box-shadow: 0px 0px 6px 2px rgb(250, 250, 250);
+	width: 96px;
+}
+
+	.card-image + .card-image-frame {
+		border-radius: 50%;
+		box-shadow: 0px 0px 10px 4px rgb(250, 250, 250) inset;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+.card-media {
+	position: relative;
+}
+
+.card-title > p:first-child {
+	padding: 0;
+}
+
+.card-title > p:not(:first-child) {
+	color: rgb(95,95,95);
+}
+
+.cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.email::before {
+	content: "\f0e0";
+}
+
+.float-right {
+	float: right;
+}
+
+.hours::before {
+	content: "\f017";
+}
+
+.icon::before {
+	margin-right: 0.5em;
+}
+
+.phone::before {
+	content: "\f2a0";
+}
+
+.separator {
+	margin: auto;
+	width: 72px;
+}
+
+	.separator > hr {
+		border-top-color: rgb(51,51,51);
+		border-top-style: solid;
+		border-top-width: 0.2rem;
+		color: transparent;
+	}
+
+.site-contacts > span {
+	flex-basis: 100%;
+}
+
+.site-content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+	.site-content > section:first-child {
+		padding: 2.6em;
+	}
+
+.site-footer {
+	box-shadow: 0px 10px 10px lightgrey inset;
+	display: flex;
+	flex-direction: column;
+	padding: 1em;
+}
+
+	.site-footer > section {
+		display: flex;
+		flex-basis: 33%;
+		flex-wrap: wrap;
+	}
+
+.site-header {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1em;
+	padding: 0.25em 0.75em;
+}
+
+	.site-header > nav {
+		border-radius: 0.25em;
+		width: 100%;
+	}
+
+		.site-header > nav > ul {
+			align-items: stretch;
+			background-color: rgb(100,50,125);
+			flex-wrap: wrap;
+			justify-content: space-around;
+			list-style-type: none;
+			padding: 0.5em;
+		}
+
+			.site-header > nav > ul > li {
+				border-color: rgb(255,255,255);
+				border-radius: 0.25em;
+				border-style: solid;
+				border-width: 0.25em;
+				color: rgb(255, 255, 255);
+				list-style-type: none;
+				margin: 0.25em;
+				padding: 0.25em 1.25em;
+			}
+
+				.site-header > nav > ul > li:hover {
+					background-color: rgb(255,255,255);
+					color: rgb(128,0,128);
+				}
+
+				.site-header > nav > ul > li > a {
+					color: inherit;
+				}
+
+.site-map a {
+	color: initial;
+	flex-basis: 50%;
+	text-decoration: none;
+}
+
+	.site-map a:hover {
+		color: rgb(128,0,128);
+		text-decoration: underline;
+	}
+
+.site-title {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 0.25em;
+}
+
+@media (min-width: 576px) {
+	form {
+		width: 60%;
+	}
+}
+
+@media (min-width: 1440px) {
+	form {
+		width: 40%;
+	}
+
+	.card {
+		flex-basis: 30%;
+	}
+
+	.site-content > section:first-child {
+		padding: 6.5em;
+	}
+
+	.site-footer {
+		flex-direction: row;
+	}
+
+	.site-header {
+		flex-direction: row;
+		padding: 1rem 0;
+	}
+
+		.site-header > nav {
+			margin-left: auto;
+			width: auto;
+		}
+
+			.site-header > nav > ul {
+				background-color: transparent;
+			}
+
+				.site-header > nav > ul > li {
+					color: initial;
+				}
+
+					.site-header > nav > ul > li:hover {
+						border-color: rgb(100,50,125);
+					}
+
+					.site-header > nav > ul > li:not(:last-child) {
+						margin-bottom: 0;
+					}
+}

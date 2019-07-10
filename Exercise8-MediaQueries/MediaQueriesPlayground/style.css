@@ -1,0 +1,285 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+	*, *::after, *::before {
+		box-sizing: inherit;
+	}
+
+body {
+	padding: 2em;
+}
+
+.mq-ar::after {
+	color: green;
+	content: "Aspect ratio is larger than 2/5";
+}
+
+@media (min-aspect-ratio: 3/7) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 3/7";
+	}
+}
+
+@media (min-aspect-ratio: 4/9) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 4/9";
+	}
+}
+
+@media (min-aspect-ratio: 1/2) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 1/2";
+	}
+}
+
+@media (min-aspect-ratio: 3/5) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 3/5";
+	}
+}
+
+@media (min-aspect-ratio: 5/8) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 5/8";
+	}
+}
+
+@media (min-aspect-ratio: 2/3) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 2/3";
+	}
+}
+
+@media (min-aspect-ratio: 3/4) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 3/4";
+	}
+}
+
+@media (min-aspect-ratio: 4/5) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 4/5";
+	}
+}
+
+@media (min-aspect-ratio: 5/4) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 5/4";
+	}
+}
+
+@media (min-aspect-ratio: 4/3) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 4/3";
+	}
+}
+
+@media (min-aspect-ratio: 3/2) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 3/2";
+	}
+}
+
+@media (min-aspect-ratio: 8/5) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 8/5";
+	}
+}
+
+@media (min-aspect-ratio: 16/9) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 16/9";
+	}
+}
+
+@media (min-aspect-ratio: 256/135) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 256/135";
+	}
+}
+
+@media (min-aspect-ratio: 2/1) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 2/1";
+	}
+}
+
+@media (min-aspect-ratio: 21/9) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 21/9";
+	}
+}
+
+@media (min-aspect-ratio: 32/9) {
+	.mq-ar::after {
+		content: "Aspect ratio is larger than 32/9";
+	}
+}
+
+.mq-height::after {
+	color: green;
+	content: "Viewport height is larger than 568px";
+}
+
+@media (min-height: 640px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 640px";
+	}
+}
+
+@media (min-height: 667px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 667px";
+	}
+}
+
+@media (min-height: 732px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 732px";
+	}
+}
+
+@media (min-height: 736px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 736px";
+	}
+}
+
+@media (min-height: 740px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 740px";
+	}
+}
+
+@media (min-height: 812px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 812px";
+	}
+}
+
+@media (min-height: 824px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 824px";
+	}
+}
+
+@media (min-height: 847px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 847px";
+	}
+}
+
+@media (min-height: 850px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 850px";
+	}
+}
+
+@media (min-height: 853px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 853px";
+	}
+}
+
+@media (min-height: 896px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 896px";
+	}
+}
+
+@media (min-height: 960px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 960px";
+	}
+}
+
+@media (min-height: 1024px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 1024px";
+	}
+}
+
+@media (min-height: 1080px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 1080px";
+	}
+}
+
+@media (min-height: 1280px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 1280px";
+	}
+}
+
+@media (min-height: 1366px) {
+	.mq-height::after {
+		content: "Viewport width is larger than 1366px";
+	}
+}
+
+.mq-width::after {
+	color: green;
+	content: "Viewport width is larger than 320px";
+}
+
+@media (min-width: 360px) {
+	.mq-width::after {
+		content: "Viewport width is larger than 360px";
+	}
+}
+
+@media (min-width: 375px) {
+	.mq-width::after {
+		content: "Viewport width is larger than 375px";
+	}
+}
+
+@media (min-width: 412px) {
+	.mq-width::after {
+		content: "Viewport width is larger than 412px";
+	}
+}
+
+@media (min-width: 414px) {
+	.mq-width::after {
+		content: "Viewport width is larger than 414px";
+	}
+}
+
+@media (min-width: 480px) {
+	.mq-width::after {
+		content: "Viewport width is larger than 480px";
+	}
+}
+
+@media (min-width: 640px) {
+	.mq-width::after {
+		content: "Viewport width is larger than 640px";
+	}
+}
+
+@media (min-width: 768px) {
+	.mq-width::after {
+		content: "Viewport width is larger than 768px";
+	}
+}
+
+@media (min-width: 800px) {
+	.mq-width::after {
+		content: "Viewport width is larger than 800px";
+	}
+}
+
+@media (min-width: 1024px) {
+	.mq-width::after {
+		content: "Viewport width is larger than 1024px";
+	}
+}
+
+@media (min-width: 1920px) {
+	.mq-width::after {
+		content: "Viewport width is larger than 1920px";
+	}
+}
