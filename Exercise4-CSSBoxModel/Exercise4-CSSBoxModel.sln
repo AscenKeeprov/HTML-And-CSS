@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "BoxModelContainer", "BoxModelContainer\BoxModelContainer.njsproj", "{B0C84E16-65B5-4749-8FB9-E72D0E95F8C0}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "BoxSizing", "BoxSizing\BoxSizing.njsproj", "{7A55F67D-6F4C-4A7A-99E0-AD30DC082BD5}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "SimpleArticlePage", "SimpleArticlePage\SimpleArticlePage.njsproj", "{76877835-9829-4A56-8F54-FFD8463BBF26}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NavigationInlineBlock", "NavigationInlineBlock\NavigationInlineBlock.njsproj", "{30D0EC99-0749-4110-8942-07433FD7A148}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "PhotoGalleryInlineBlock", "PhotoGalleryInlineBlock\PhotoGalleryInlineBlock.njsproj", "{F2605ED7-DE28-4684-B23F-CF7FA15F5627}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "BlogLayoutInlineBlock", "BlogLayoutInlineBlock\BlogLayoutInlineBlock.njsproj", "{CE0643F4-664C-4C32-9BFD-9398CE939AA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0C84E16-65B5-4749-8FB9-E72D0E95F8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C84E16-65B5-4749-8FB9-E72D0E95F8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C84E16-65B5-4749-8FB9-E72D0E95F8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C84E16-65B5-4749-8FB9-E72D0E95F8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A55F67D-6F4C-4A7A-99E0-AD30DC082BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A55F67D-6F4C-4A7A-99E0-AD30DC082BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A55F67D-6F4C-4A7A-99E0-AD30DC082BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A55F67D-6F4C-4A7A-99E0-AD30DC082BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76877835-9829-4A56-8F54-FFD8463BBF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76877835-9829-4A56-8F54-FFD8463BBF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76877835-9829-4A56-8F54-FFD8463BBF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76877835-9829-4A56-8F54-FFD8463BBF26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D0EC99-0749-4110-8942-07433FD7A148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D0EC99-0749-4110-8942-07433FD7A148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D0EC99-0749-4110-8942-07433FD7A148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D0EC99-0749-4110-8942-07433FD7A148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2605ED7-DE28-4684-B23F-CF7FA15F5627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2605ED7-DE28-4684-B23F-CF7FA15F5627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2605ED7-DE28-4684-B23F-CF7FA15F5627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2605ED7-DE28-4684-B23F-CF7FA15F5627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0643F4-664C-4C32-9BFD-9398CE939AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0643F4-664C-4C32-9BFD-9398CE939AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0643F4-664C-4C32-9BFD-9398CE939AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0643F4-664C-4C32-9BFD-9398CE939AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {279E3F5E-34EF-44B5-92BB-B16EC9402415}
+	EndGlobalSection
+EndGlobal

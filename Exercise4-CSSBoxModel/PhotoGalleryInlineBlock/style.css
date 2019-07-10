@@ -1,0 +1,26 @@
+﻿body {
+	background-color: rgb(238, 238, 238);
+}
+
+ul.gallery > li {
+	background-color: white;
+	border-color: black;
+	border-style: solid;
+	border-width: 0.4rem;
+	display: inline-block;
+	float: left;
+	max-width: 33vw;
+	margin: 0.5rem;
+	padding: 1rem;
+	vertical-align: middle;
+}
+
+	ul.gallery > li:nth-child(3n+1) {
+		clear: left;
+	}
+
+	ul.gallery > li img {
+		max-height: 450px;
+		max-width: 100%;
+		vertical-align: inherit;
+	}

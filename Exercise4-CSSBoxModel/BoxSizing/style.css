@@ -1,0 +1,22 @@
+﻿*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+p {
+	border-color: blue;
+	border-style: solid;
+	border-width: 5px;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 100%;
+}
+
+section {
+	border-color: limegreen;
+	border-style: dashed;
+	border-width: 3px;
+	height: 250px;
+	margin: auto;
+	text-align: center;
+	width: 250px;
+}
