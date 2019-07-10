@@ -1,0 +1,91 @@
+﻿@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css");
+
+* {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+.background-cold {
+	background: linear-gradient(to right, rgb(25,90,155), rgb(65,205,165));
+}
+
+.background-warm {
+	background: linear-gradient(to right, rgb(165,50,120), rgb(210,130,20));
+}
+
+
+.card {
+	border-radius: 5px;
+	display: block;
+	left: 50%;
+	max-height: 90%;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 360px;
+}
+
+	.card > i {
+		bottom: 10px;
+		color: rgb(255,255,255);
+		position: absolute;
+		right: 10px;
+	}
+
+.card-media {
+	max-height: 90vh;
+	overflow: hidden;
+	position: relative;
+}
+
+	.card-media::after {
+		bottom: 0;
+		box-shadow: 0 0 64px 32px rgba(0,0,0,0.7) inset;
+		content: "";
+		display: block;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 1;
+	}
+
+	.card-media::before {
+		content: "";
+		display: block;
+		padding-top: 56.25%;
+	}
+
+	.card-media:hover::after {
+		opacity: 0.5;
+	}
+
+	.card-media img {
+		height: auto;
+		left: 50%;
+		object-fit: cover;
+		position: absolute;
+		top: 50%;
+		width: 100%;
+		transform: translate(-50%, -50%);
+	}
+
+.card-media.portrait::before {
+		padding-top: 150%;
+	}
+
+.card-media.portrait img {
+		height: 100%;
+		/*width: auto;*/
+	}
+
+.viewport {
+	height: 100vh;
+	position: relative;
+}

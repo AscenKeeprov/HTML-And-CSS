@@ -1,0 +1,150 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+	*, *::after, *::before {
+		box-sizing: inherit;
+	}
+
+a {
+	color: rgb(0,102,0);
+	text-decoration: none;
+}
+
+article {
+	display: inline-block;
+	width: 70%;
+}
+
+aside {
+	display: inline-block;
+	float: right;
+	padding-left: 10%;
+	width: 30%;
+}
+
+	aside ul {
+		padding-left: 2rem;
+	}
+
+blockquote {
+	border-color: rgb(221, 221, 221);
+	border-style: solid;
+	border-width: 0 0 0 5px;
+	color: rgb(68, 68, 68);
+	font-family: Georgia, serif;
+	font-style: italic;
+	margin-left: 1.5rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	width: 30vw;
+}
+
+	blockquote > p:last-child {
+		text-align: right;
+	}
+
+body {
+	background-color: rgb(238,238,238);
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+	body > header::after {
+		clear: both;
+		content: "";
+		display: block;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, serif;
+	font-weight: normal;
+	line-height: 1.2;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.875rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 1.625rem;
+}
+
+h5 {
+	font-size: 1.5rem;
+}
+
+h6 {
+	font-size: 1.375rem;
+}
+
+hr {
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+img {
+	background-color: rgb(255,255,255);
+	border-color: rgb(0,0,0);
+	border-style: solid;
+	border-width: 3px;
+	padding: 7px;
+	box-shadow: 0 0 1rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+ol, p, section, ul {
+	padding-bottom: 1rem;
+}
+
+	section::after {
+		display: block;
+		clear: both;
+		content: "";
+	}
+
+.float-left {
+	float: left;
+	margin-right: 1.5rem;
+}
+
+.float-right {
+	float: right;
+	margin-left: 1.5rem;
+}
+
+.site-navigation {
+	padding: 1.5rem 1rem 0 0;
+}
+
+	.site-navigation > ul > li {
+		display: inline-block;
+	}
+
+		.site-navigation > ul > li:not(:last-child) {
+			margin-right: 1rem;
+		}
+
+.site-title {
+	display: inline-block;
+	font-size: 2.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
