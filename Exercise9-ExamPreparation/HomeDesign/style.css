@@ -1,0 +1,177 @@
+﻿@import url("https://fonts.googleapis.com/css?family=Courgette");
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+
+*, *::after, *::before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(245,245,245);
+	padding: 3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.875rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 1.625rem;
+}
+
+h5 {
+	font-size: 1.5rem;
+}
+
+h6 {
+	font-size: 1.375rem;
+}
+
+hr {
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: Courgette, sans-serif;
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+ol, p, section, ul {
+	padding-bottom: 1em;
+}
+
+.card {
+	background-color: rgb(255,255,255);
+	border-radius: 1em;
+	flex-basis: 30%;
+	margin-top: 1.25em;
+	overflow: hidden;
+	text-align: center;
+}
+
+.card {
+	background-color: rgb(255,255,255);
+	border-radius: 1em;
+	display: flex;
+	flex-basis: 30%;
+	flex-direction: column;
+	margin-top: 1.25em;
+	overflow: hidden;
+	text-align: center;
+}
+
+	.card + .card {
+		margin-left: 1.25em;
+	}
+
+.card-content {
+	padding: 1em;
+}
+
+.card-footer {
+	margin-top: auto;
+	padding: 0.5em 0 1em 0;
+}
+
+.card-media img {
+	display: block;
+	max-height: 13.5em;
+	object-fit: cover;
+	width: 100%;
+}
+
+.card-title {
+	border-bottom: 1px solid rgb(205,35,40);
+	display: block;
+	font-size: 1.25em;
+	font-weight: 600;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+
+.cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.link-action {
+	color: initial;
+	text-decoration: none;
+}
+
+	.link-action:hover > span {
+		text-decoration: underline;
+	}
+
+	.link-action::after {
+		color: rgb(205,35,40);
+		content: "\f138";
+		font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		margin-left: 0.5em;
+	}
+
+.site-header {
+	padding-bottom: 0.75em;
+	text-align: center;
+}
+
+.site-content {
+	margin: 0 auto;
+}
+
+.site-subtitle {
+	color: rgb(205,35,40);
+	display: block;
+	font-size: 1.25em;
+	padding-left: 10em;
+	text-transform: uppercase;
+}
+
+.site-title {
+	display: block;
+	font-size: 2.75em;
+}
+
+@media (max-width: 1280px) {
+	body {
+		padding: 2em;
+	}
+
+	.card {
+		flex-basis: 45%;
+	}
+}
+
+@media (max-width: 820px) {
+	body {
+		padding: 1em;
+	}
+
+	.card {
+		flex-basis: 100%;
+	}
+
+		.card + .card {
+			margin-left: 0;
+		}
+}

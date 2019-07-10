@@ -1,0 +1,234 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+
+:root {
+	--custom-blue: rgb(0,120,205);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+	*, *::after, *::before {
+		box-sizing: inherit;
+	}
+
+body {
+	background-color: rgb(235,240,240);
+	padding: 4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: serif;
+	font-weight: normal;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.875rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 1.625rem;
+}
+
+h5 {
+	font-size: 1.5rem;
+}
+
+h6 {
+	font-size: 1.375rem;
+}
+
+hr {
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+ol, p, section, ul {
+	padding-bottom: 1rem;
+}
+
+.icon-envelope::before {
+	content: "\f0e0";
+}
+
+.icon-padlock::before {
+	content: "\f023";
+}
+
+.icon-phone::before {
+	content: "\f3cd";
+}
+
+.icon-user::before {
+	content: "\f007";
+}
+
+.input-group {
+	background-color: rgb(255,255,255);
+	border-color: rgb(196,223,233);
+	border-radius: 4px;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	position: relative;
+}
+
+	.input-group .input-group-overlay {
+		border: inherit;
+		border-radius: 4px;
+		bottom: -1px;
+		content: "";
+		left: -1px;
+		pointer-events: none;
+		position: absolute;
+		right: -1px;
+		top: -1px;
+	}
+
+	.input-group:hover {
+		border-color: var(--custom-blue);
+	}
+
+	.input-group input:invalid:focus ~ .input-group-overlay {
+		border-color: rgb(255,0,0);
+	}
+
+.input-group-with-icon {
+	align-items: center;
+	display: flex;
+}
+
+	.input-group-with-icon:hover::before {
+		border-color: var(--custom-blue);
+		color: var(--custom-blue);
+	}
+
+	.input-group-with-icon::before {
+		border-right: 1px solid rgb(70,70,70);
+		font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		margin-right: 0.5em;
+		min-width: 1.5em;
+		padding-right: 0.5em;
+	}
+
+.input-requirement {
+	color: var(--custom-blue);
+	font-size: 0.75em;
+	opacity: 0.25;
+}
+
+.label-required::before {
+	color: rgb(255,0,0);
+	content: "* ";
+	margin-left: -0.625em;
+}
+
+.sing-up-form {
+	color: rgb(70,70,70);
+	margin: 0 auto;
+	max-width: 50%;
+}
+
+	.sing-up-form fieldset {
+		border: none;
+	}
+
+		.sing-up-form fieldset legend {
+			border-color: var(--custom-blue);
+			border-style: solid;
+			border-width: 0 0 3px 0;
+			font-size: 2.75rem;
+			font-weight: 600;
+			letter-spacing: 0.125rem;
+			margin-bottom: 0.5em;
+			text-align: center;
+			width: 100%;
+		}
+
+	.sing-up-form input {
+		background-color: transparent;
+		border: none;
+		width: 100%;
+	}
+
+		.sing-up-form input:focus {
+			outline: none;
+		}
+
+			.sing-up-form input:focus::placeholder {
+				color: transparent;
+				opacity: 0;
+			}
+
+		.sing-up-form input:invalid {
+			box-shadow: none;
+		}
+
+		.sing-up-form input::placeholder {
+			color: rgb(115,115,115);
+			opacity: 1;
+		}
+
+	.sing-up-form label {
+		color: rgb(175,150,175);
+		display: block;
+		margin-bottom: 0.5em;
+	}
+
+	.sing-up-form .button-primary {
+		background-color: var(--custom-blue);
+		border-color: transparent;
+		border-radius: 4px;
+		border-width: 1px;
+		color: rgb(255,255,255);
+		font-size: 1.5em;
+		padding: 0.25em 1em;
+		width: 100%;
+	}
+
+		.sing-up-form .button-primary:hover {
+			background-color: rgb(255,255,255);
+			border-color: var(--custom-blue);
+			color: var(--custom-blue);
+		}
+
+@media (max-width: 800px) {
+	body {
+		padding: 2em;
+	}
+
+	.sing-up-form {
+		max-width: 75%;
+	}
+}
+
+@media (max-width: 360px) {
+	body {
+		padding: 1em;
+	}
+
+	.sing-up-form {
+		max-width: 100%;
+	}
+}
