@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Customer Details Form</title>
+	<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+	<form action="" method="post">
+		<h1>Customer Details</h1>
+		<label class="form-row" for="firstName">
+			<span>First Name</span>
+			<input type="text" id="firstName" name="firstName" placeholder="George" />
+		</label>
+		<label class="form-row" for="lastName">
+			<span>Last Name</span>
+			<input type="text" id="lastName" name="lastName" placeholder="Devis" />
+		</label>
+		<div class="form-row">
+			<span>Gender</span>
+			<label for="genderM">
+				<input type="radio" id="genderM" name="gender" value="Male" />
+				<span>Male</span>
+			</label>
+			<label for="genderF">
+				<input type="radio" id="genderF" name="gender" value="Female" />
+				<span>Female</span>
+			</label>
+		</div>
+		<label class="form-row" for="email">
+			<span>Email</span>
+			<input type="email" id="email" name="email" placeholder="your@email.com" />
+		</label>
+		<label class="form-row" for="phone">
+			<span>Phone</span>
+			<input type="tel" id="phone" name="phone" placeholder="+359885236225" />
+		</label>
+		<div class="form-row">
+			<span>Town</span>
+			<select id="town" name="town">
+				<option value="Plovdiv">Plovdiv</option>
+				<option value="Sofia">Sofia</option>
+				<option value="Varna" selected="selected">Varna</option>
+				<option value="VelikoTarnovo">Велико Търново</option>
+			</select>
+		</div>
+		<label class="form-row" for="age">
+			<span>Age</span>
+			<input type="number" id="age" name="age" max="120" min="18" step="1" />
+		</label>
+		<label class="form-row" for="language">
+			<span>Language</span>
+			<input list="languages" id="language" name="language" />
+			<datalist id="languages">
+				<option value="Bulgarian">
+				<option value="English">
+				<option value="French">
+				<option value="German">
+				<option value="Italian">
+				<option value="Spanish">
+			</datalist>
+		</label>
+		<div class="form-row">
+			<span>Message</span>
+			<textarea name="message" cols="35" rows="5" placeholder="More information..."></textarea>
+		</div>
+		<label for="consent">
+			<input type="checkbox" id="consent" name="consent" />
+			<span>I agree the Terms and Conditions</span>
+		</label>
+		<input type="submit" value="Send" />
+	</form>
+</body>
+</html>

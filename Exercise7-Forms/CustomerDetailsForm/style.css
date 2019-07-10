@@ -1,0 +1,112 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+	*, *::after, *::before {
+		box-sizing: inherit;
+	}
+
+body {
+	height: 100vh;
+	padding: 2rem 0;
+}
+
+form {
+	background-color: rgb(173, 216, 230);
+	border-radius: 4px;
+	color: rgb(20, 55, 90);
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	max-width: 50%;
+	overflow: hidden;
+	padding: 1rem 2rem;
+}
+
+	form h1, form h2, form h3, form h4, form h5, form h6 {
+		margin-bottom: 1rem;
+		text-align: center;
+	}
+
+	form input, form select, form textarea {
+		margin-bottom: 1rem;
+	}
+
+		form input[type="submit"] {
+			background-color: rgb(35,70,100);
+			border-color: transparent;
+			border-radius: 4px;
+			border-style: solid;
+			border-width: 0px;
+			color: rgb(255,255,255);
+			margin: auto;
+			padding: 0.5rem 1.25rem;
+		}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: serif;
+	font-weight: normal;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.875rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 1.625rem;
+}
+
+h5 {
+	font-size: 1.5rem;
+}
+
+h6 {
+	font-size: 1.375rem;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: Montserrat, sans-serif;
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+label[for="consent"] {
+	padding: 1rem 0;
+}
+
+.form-row {
+	align-items: baseline;
+	display: flex;
+	flex-direction: row;
+}
+
+	.form-row input:only-of-type, .form-row select:only-of-type, .form-row textarea:only-of-type {
+		border-color: rgb(165,165,165);
+		border-style: solid;
+		border-width: 1px;
+		flex-shrink: 1;
+		flex-basis: 70%;
+		margin-left: 1rem;
+		overflow-y: scroll;
+		padding: 0.5rem;
+	}
+
+	.form-row span:first-child {
+		flex-basis: 20%;
+		flex-shrink: 0;
+	}
