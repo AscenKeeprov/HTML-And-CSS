@@ -1,0 +1,29 @@
+﻿@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+
+a {
+	background-color: gray;
+	border-radius: 0.25rem;
+	color: white;
+	font-size: large;
+	padding: 0.8rem 1rem;
+}
+
+	a i {
+		margin-right: 0.3rem;
+	}
+
+html {
+	font-family: sans-serif;
+}
+
+p {
+	padding: 1rem;
+}
+
+	p:first-of-type a {
+		background-color: green;
+	}
+
+	p:last-of-type a {
+		background-color: darkorange;
+	}
