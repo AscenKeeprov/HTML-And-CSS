@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "FlexboxLayout", "FlexboxLayout\FlexboxLayout.njsproj", "{B31676C2-61A5-4391-970B-8598765A6714}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "FlexModelArticles", "FlexModelArticles\FlexModelArticles.njsproj", "{3E698DEE-199A-4CAB-9EB9-E80638543EE6}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "FlexModelABCGame", "FlexModelABCGame\FlexModelABCGame.njsproj", "{0BD0BE23-57D2-48C9-B7E4-0288F91DE39E}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "FlexModelCalendar", "FlexModelCalendar\FlexModelCalendar.njsproj", "{3E83D834-2202-464E-8C01-1E557BF6A898}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NavigationFlexbox", "NavigationFlexbox\NavigationFlexbox.njsproj", "{E6895890-DCAF-4194-B13E-DAA8456BF0FF}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "PhotoGalleryFlexbox", "PhotoGalleryFlexbox\PhotoGalleryFlexbox.njsproj", "{917F03AE-411D-479B-BD3D-5CE78CD62BB5}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "BlogLayoutFlexbox", "BlogLayoutFlexbox\BlogLayoutFlexbox.njsproj", "{22B73389-E808-4526-8C6A-8B73B01B59D3}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "StickyFooterFlexbox", "StickyFooterFlexbox\StickyFooterFlexbox.njsproj", "{B4A02067-DDD2-46E9-AC24-7D90DC7E5AFA}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "CenterFlexbox", "CenterFlexbox\CenterFlexbox.njsproj", "{F43D2FB1-D8B2-4D75-B99F-F7DA1C1F0C52}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ExpandingFlexCards", "ExpandingFlexCards\ExpandingFlexCards.njsproj", "{ACD77D7B-1E96-497F-955C-94DCA373D900}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "CardsWithCSSColumnsAndFlexbox", "CardsWithCSSColumnsAndFlexbox\CardsWithCSSColumnsAndFlexbox.njsproj", "{2A8962A8-33BD-4E73-9AE6-B208D5414C02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B31676C2-61A5-4391-970B-8598765A6714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31676C2-61A5-4391-970B-8598765A6714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31676C2-61A5-4391-970B-8598765A6714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31676C2-61A5-4391-970B-8598765A6714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E698DEE-199A-4CAB-9EB9-E80638543EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E698DEE-199A-4CAB-9EB9-E80638543EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E698DEE-199A-4CAB-9EB9-E80638543EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E698DEE-199A-4CAB-9EB9-E80638543EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD0BE23-57D2-48C9-B7E4-0288F91DE39E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD0BE23-57D2-48C9-B7E4-0288F91DE39E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD0BE23-57D2-48C9-B7E4-0288F91DE39E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD0BE23-57D2-48C9-B7E4-0288F91DE39E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E83D834-2202-464E-8C01-1E557BF6A898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E83D834-2202-464E-8C01-1E557BF6A898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E83D834-2202-464E-8C01-1E557BF6A898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E83D834-2202-464E-8C01-1E557BF6A898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6895890-DCAF-4194-B13E-DAA8456BF0FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6895890-DCAF-4194-B13E-DAA8456BF0FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6895890-DCAF-4194-B13E-DAA8456BF0FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6895890-DCAF-4194-B13E-DAA8456BF0FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{917F03AE-411D-479B-BD3D-5CE78CD62BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917F03AE-411D-479B-BD3D-5CE78CD62BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917F03AE-411D-479B-BD3D-5CE78CD62BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917F03AE-411D-479B-BD3D-5CE78CD62BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B73389-E808-4526-8C6A-8B73B01B59D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B73389-E808-4526-8C6A-8B73B01B59D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B73389-E808-4526-8C6A-8B73B01B59D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B73389-E808-4526-8C6A-8B73B01B59D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A02067-DDD2-46E9-AC24-7D90DC7E5AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A02067-DDD2-46E9-AC24-7D90DC7E5AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A02067-DDD2-46E9-AC24-7D90DC7E5AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A02067-DDD2-46E9-AC24-7D90DC7E5AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43D2FB1-D8B2-4D75-B99F-F7DA1C1F0C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43D2FB1-D8B2-4D75-B99F-F7DA1C1F0C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43D2FB1-D8B2-4D75-B99F-F7DA1C1F0C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43D2FB1-D8B2-4D75-B99F-F7DA1C1F0C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD77D7B-1E96-497F-955C-94DCA373D900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD77D7B-1E96-497F-955C-94DCA373D900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD77D7B-1E96-497F-955C-94DCA373D900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD77D7B-1E96-497F-955C-94DCA373D900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A8962A8-33BD-4E73-9AE6-B208D5414C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A8962A8-33BD-4E73-9AE6-B208D5414C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A8962A8-33BD-4E73-9AE6-B208D5414C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A8962A8-33BD-4E73-9AE6-B208D5414C02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {641432F3-228A-46C3-9458-F06012382923}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,84 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+	*, *::after, *::before {
+		box-sizing: inherit;
+	}
+
+body {
+	align-items: stretch;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	padding: 1rem;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	max-height: 45vh;
+	max-width: 65vw;
+}
+
+	.container span {
+		align-self: stretch;
+		border-color: black;
+		border-style: solid;
+		border-width: 1px;
+		flex-grow: 1;
+		flex-shrink: 1;
+		padding: 0.5rem;
+	}
+
+	.container > section {
+		align-items: center;
+		display: flex;
+		height: 100%;
+		text-align: center;
+	}
+
+.notes {
+	flex-direction: column;
+}
+
+	.notes > * {
+		flex-basis: 50%;
+	}
+
+.week {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+	.week > * {
+		flex-basis: 25%;
+	}
+
+	.week > span:nth-child(1),
+	.week > span:nth-child(7) {
+		flex-basis: 100%;
+	}
+
+	.week > span:nth-child(2),
+	.week > span:nth-child(3),
+	.week > span:nth-child(4),
+	.week > span:nth-child(5),
+	.week > span:nth-child(6) {
+		flex-basis: 20%;
+	}
+
+	.week > span:nth-child(8),
+	.week > span:nth-child(9) {
+		flex-basis: 50%;
+	}
